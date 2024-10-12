@@ -1,0 +1,6 @@
+[submodule "Localrepo"]
+	path = Localrepo
+	url = https://github.com/divyaranigm0354/LocalRepo.git
+[submodule "Python"]
+	path = Python
+	url = https://github.com/divyaranigm0354/Python.git
