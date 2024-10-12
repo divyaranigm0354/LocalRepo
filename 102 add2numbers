@@ -1,0 +1,6 @@
+def add2num(x,s):
+    sum=x+s
+
+    print(sum)
+
+add2num(9,7)

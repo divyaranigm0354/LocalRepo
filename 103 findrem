@@ -1,0 +1,5 @@
+def find_rem(n):
+    z=int(input("enter the number that divides"))
+    rem=n%z
+    print(rem)
+find_rem(10)

@@ -1,0 +1,5 @@
+name=input("enter the name:")
+def greet(name):
+    greeting = name+ ".....\t"+"GoodAfternoon!!!!!"
+    print(greeting)
+greet(name)
