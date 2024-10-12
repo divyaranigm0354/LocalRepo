@@ -1,0 +1,6 @@
+n=int(input("enter the number"))
+def squareofnumber(n):
+    result=n*n
+    print(result)
+
+squareofnumber(n)

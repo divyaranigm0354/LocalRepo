@@ -1,0 +1,44 @@
+1 Punctuators
+punctuators are the symbols to organize the sentences in a structured way
+
+PYTHON IS A IMPLICIT LANGUAGE
+In programming languages, the terms "explicit" and "implicit" typically refer to how types are defined and how conversions between types occur. Here's a breakdown of both concepts:
+
+Explicit Language
+In explicit languages, type definitions are clear and must be declared by the programmer. This means that the programmer specifies the data types of variables and the types of parameters and return values in functions. Examples of explicitly typed languages include:
+
+Java
+C
+C++
+Rust
+Characteristics:
+
+Type Safety: Errors related to type mismatches can often be caught at compile time.
+Readability: It can be easier to understand what type a variable is supposed to be since it's declared explicitly.
+Performance: Knowing the types at compile time can lead to optimizations by the compiler.
+Example:
+
+java
+Copy code
+int number = 5; // The type is explicitly declared as int
+Implicit Language
+In implicit languages, types are inferred by the compiler or interpreter, meaning that the programmer doesn't need to explicitly declare the types of variables. This allows for more flexible and concise code. Examples of implicitly typed languages include:
+
+Python
+JavaScript
+Ruby
+Swift (with type inference)
+Characteristics:
+
+Simplicity: Code can be shorter and easier to write since types don’t need to be declared.
+Flexibility: Variables can change types easily, which can be useful in dynamic scenarios.
+Potential for Errors: Since types are inferred, it might lead to runtime errors if the inferred type is not what was intended.
+Example:
+
+python
+Copy code
+number = 5  # The type is inferred to be int
+Key Differences
+Type Declaration: Explicit languages require you to declare types, while implicit languages infer them.
+Error Detection: Explicit languages often catch type-related errors at compile time, while implicit languages may catch them at runtime.
+Code Length: Implicit languages can result in shorter and more flexible code, while explicit languages may lead to more verbose code.

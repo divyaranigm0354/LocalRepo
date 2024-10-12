@@ -1,0 +1,9 @@
+import os
+def filepath(path):
+  
+
+    contents = os.listdir(path) #important mosule is os and method called is list dir
+    for item in contents:
+        print(item)
+
+filepath(r"C:\Users\divya\OneDrive\Documents")

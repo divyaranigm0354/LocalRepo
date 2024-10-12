@@ -1,0 +1,11 @@
+name=input("ENter the  string:")
+def detect(name):
+    if " " in name:
+        return True
+    else:
+        return False
+detect(name)
+if detect(name):
+    print("Detected")
+else:
+    print("No")

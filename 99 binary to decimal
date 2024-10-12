@@ -1,0 +1,22 @@
+def binarytodecimal(n):
+    decimal=0
+    power=0
+    while n>0:
+        lastdigit=n%10
+        decimal= decimal+lastdigit*(2** power)
+        n=n//10
+        power+=1
+    return decimal
+n=1011
+print(binarytodecimal(n))
+
+def decimaltobinary(n1):
+    binary=""
+    while(n1>0):
+        rem = n1%2
+        binary=str(rem) + binary
+        n1=n1//2
+    return binary
+n1=15
+print(decimaltobinary(n1))
+    

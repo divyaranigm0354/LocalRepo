@@ -1,0 +1,137 @@
+"""1. Arithmetic Operators
+These operators are used for mathematical calculations.
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+// (Floor Division)
+% (Modulus)
+** (Exponentiation)
+Example:
+
+"""
+a = 10
+b = 3
+print(a + b)  # 13
+print(a // b) # 3
+print(a ** b) # 1000
+
+"""
+2. Comparison (Relational) Operators
+These operators compare two values and return a Boolean result.
+
+== (Equal to)
+!= (Not equal to)
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+Example:
+
+"""
+a = 10
+b = 20
+print(a < b)  # True
+print(a == b) # False
+
+
+"""3. Logical Operators
+These operators combine conditional statements.
+
+and
+or
+not
+Example:
+
+"""
+a = True
+b = False
+print(a and b)  # False
+print(a or b)   # True
+print(not a)    # False
+
+"""
+4. Bitwise Operators
+These operators perform bit-level operations on integers.
+
+& (Bitwise AND)
+| (Bitwise OR)
+^ (Bitwise XOR)
+~ (Bitwise NOT)
+<< (Left Shift)
+>> (Right Shift)
+Example:
+"""
+a = 5  # (0101 in binary)
+b = 3  # (0011 in binary)
+print(a & b)  # 1 (0001 in binary)
+print(a | b)  # 7 (0111 in binary)
+
+"""
+5. Assignment Operators
+These operators assign values to variables, often with some operation.
+
+= (Assign)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+/= (Divide and assign)
+//= (Floor divide and assign)
+%= (Modulus and assign)
+**= (Exponentiate and assign)
+Example:
+
+"""
+a = 5
+a += 3  # a = a + 3
+print(a)  # 8
+
+"""
+6. Identity Operators
+These operators compare the memory locations of two objects.
+
+is (Checks if both operands refer to the same object)
+is not (Checks if both operands do not refer to the same object)
+Example:
+"""
+
+a = [1, 2, 3]
+b = a
+c = a[:]
+print(a is b)    # True
+print(a is c)    # False
+
+"""
+7. Membership Operators
+These operators test for membership in a sequence (like lists, tuples, and strings).
+
+in (Checks if a value is present)
+not in (Checks if a value is not present)
+Example:
+"""
+
+a = [1, 2, 3]
+print(2 in a)     # True
+print(4 not in a) # True
+
+"""
+8. Ternary Operator (Conditional Expression)
+This is a shorthand way of writing an if-else statement.
+
+Syntax:
+
+
+value_if_true if condition else value_if_false
+Example:
+
+"""
+a = 5
+result = "Even" if a % 2 == 0 else "Odd"
+print(result)  
+# Odd These operators help you manipulate data effectively in Python. If you have any specific questions or need examples on a particular operator, feel free to ask!
+
+
+
+#operator precedance not>and>or
+#not true and false or true == true
